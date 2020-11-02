@@ -6,6 +6,8 @@ variables:
 
 before_script:
   - gem install bundler
+  - bundle lock --add-platform x86-mingw32 x64-mingw32 x86-mswin32 java
+  - bundle update --bundler
   - bundle install
 
 test:
