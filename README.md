@@ -2,6 +2,8 @@
 
 This repository includes the code for the website of the Digital Humanities Network at the Humboldt-Universität zu Berlin. The Code is based on the [Phantom Jekyll Theme](https://github.com/andrewbanchich/phantom-jekyll-theme). The original README is included below.
 
+***
+
 # Original README
 
 A Jekyll version of the "Phantom" theme by [HTML5 UP](https://html5up.net/).
