@@ -8,13 +8,13 @@
 # Site settings
 title: DH@HU
 email: youremailaddress@gmail.com
-description: The Jekyll version of the Phantom theme by HTML5 UP.
+description: "Homepage des Digital Humanities Network an der Humboldt-Universität zu Berlin"
 
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://digital-humanities-network-hu.github.io/" # the base hostname & protocol for your site, e.g. http://example.com
 
 # Logo settings
-logo-image-url: images/logo.svg
+logo-image-url: images/husiegel_bw.png
 font-awesome-icon-logo:
 
 # Social settings
