@@ -1,0 +1,21 @@
+<section class="tiles">
+
+{% for page in site.pages %}
+{% if page.title %}
+{% unless page.exclude %}
+	<article class="style{{ forloop.index | plus:1 }}">
+		<span class="image">
+			<img src="{{ site.url }}{{ site.baseurl }}/images/pic01.jpg" alt="" />
+		</span>
+		<a href="{{ page.url | prepend: site.baseurl }}">
+			<h2>{{ page.title | remove: "Home" }}</h2>
+			<div class="content">
+				<p>{{ page.excerpt }}</p>
+			</div>
+		</a>
+	</article>
+{% endunless %}
+{% endif %}
+{% endfor %}
+
+</section>
