@@ -1,0 +1,21 @@
+<section class="tiles">
+
+{% for teaching_institute in site.pages %}
+	{% if teaching_institute.category contains 'teaching' %}
+		<article class="style{{ forloop.index | plus:1 }}">
+			<span class="image">
+				<img src="{{ site.url }}{{ site.baseurl }}/images/pic01.jpg" alt="" />
+			</span>
+			<a href="{{ teaching_institute.url | prepend:site.baseurl }}">
+				<h2>{{ teaching_institute.title }}</h2>
+				<div class="content">
+					<p>{{ teaching_institute.excerpt }}</p>
+				</div>
+			</a>
+		</article>
+	{% endif %}
+		
+{% endfor %}
+	
+</section>
+	

@@ -1,0 +1,21 @@
+<section class="tiles">
+
+{% for resource in site.pages %}
+	{% if resource.category contains 'resources' %}
+		<article class="style{{ forloop.index | plus:1 }}">
+			<span class="image">
+				<img src="{{ site.url }}{{ site.baseurl }}/images/pic01.jpg" alt="" />
+			</span>
+			<a href="{{ resource.url | prepend:site.baseurl }}">
+				<h2>{{ resource.title }}</h2>
+				<div class="content">
+					<p>{{ resource.excerpt }}</p>
+				</div>
+			</a>
+		</article>
+	{% endif %}
+		
+{% endfor %}
+	
+</section>
+	
