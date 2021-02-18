@@ -10,8 +10,8 @@ title: Phantom
 email: youremailaddress@gmail.com
 description: The Jekyll version of the Phantom theme by HTML5 UP.
 
-baseurl: "/dh-at-hu-website" # the subpath of your site, e.g. /blog
-url: "https://pages.cms.hu-berlin.de/dh" # the base hostname & protocol for your site, e.g. http://example.com
+baseurl: "" # the subpath of your site, e.g. /blog
+url: "https://digital-humanities-network-hu.github.io/" # the base hostname & protocol for your site, e.g. http://example.com
 
 # Logo settings
 logo-image-url: images/logo.svg
