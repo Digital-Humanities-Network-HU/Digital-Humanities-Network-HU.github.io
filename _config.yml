@@ -6,7 +6,7 @@ email: youremailaddress@gmail.com
 description: A responsive site template designed by HTML5 Up<br /> and released under the Creative Commons.
 
 baseurl: "/dh-at-hu-website" # the subpath of your site, e.g. /blog
-url: "https://dh.pages.cms.hu-berlin.de" # the base hostname & protocol for your site, e.g. http://example.com
+url: "https://pages.cms.hu-berlin.de/dh" # the base hostname & protocol for your site, e.g. http://example.com
 
 author:
 street_address: 1234 Somewhere Road
