@@ -2,6 +2,7 @@
 layout: default
 title: IBI
 category: teaching
+description: Insititut für Bibliotheks- und Informationswissenschaft
 ---
 
 <header>

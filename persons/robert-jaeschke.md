@@ -1,7 +1,6 @@
 ---
 layout: default
 title:  "Robert Jäschke"
-featured-image: images/pic13.jpg
 category: persons
 ---
 

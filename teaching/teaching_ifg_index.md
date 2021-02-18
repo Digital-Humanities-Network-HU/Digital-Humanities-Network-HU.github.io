@@ -2,6 +2,7 @@
 layout: default
 title: IfG
 category: teaching
+description: Insitut für Geschichtswissenschaften
 ---
 
 <header>

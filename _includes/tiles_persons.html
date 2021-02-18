@@ -4,12 +4,12 @@
 	{% if person.category contains 'persons' %}
 		<article class="style{{ forloop.index | plus:1 }}">
 			<span class="image">
-				<img src="{{ site.url }}{{ site.baseurl }}/images/pic01.jpg" alt="" />
+				<img src="{{ site.url }}{{ site.baseurl }}{{ person.featured-image }}" alt="{{ person.title }}" onerror="this.onerror=null;this.src='{{ site.url }}{{ site.baseurl }}/images/pic01.jpg';" style="max-width: 353px;" />
 			</span>
 			<a href="{{ person.url | prepend:site.baseurl }}">
 				<h2>{{ person.title }}</h2>
 				<div class="content">
-					<p>{{ person.excerpt }}</p>
+					<p>{{ person.content }}</p>
 				</div>
 			</a>
 		</article>

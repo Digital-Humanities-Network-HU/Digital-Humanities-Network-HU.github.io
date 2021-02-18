@@ -1,6 +1,6 @@
 ---
 layout: page
-title: About
+title: "Digital Humanities an der HU Berlin"
 category: home
 ---
 
