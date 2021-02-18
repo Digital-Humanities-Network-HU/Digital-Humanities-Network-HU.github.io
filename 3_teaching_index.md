@@ -2,6 +2,7 @@
 layout: default
 title: Lehre
 category: home
+description: "Kurzbeschreibung der Kurzbeschreibung"
 ---
 
 <header>

@@ -3,6 +3,7 @@ layout: default
 title:  "Torsten Hiltmann"
 featured-image: "/images/persons/1_hiltmann.jpg"
 category: persons
+description: "Kurzebeschreibung der Kurzbeschreibung"
 ---
 
 <h1>Torsten Hiltmann</h1>

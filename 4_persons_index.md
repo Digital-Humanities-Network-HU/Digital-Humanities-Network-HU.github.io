@@ -2,6 +2,7 @@
 layout: default
 title: Personen
 category: home
+description: "Kurzbeschreibung der Kurzbeschreibung"
 ---
 
 <header>

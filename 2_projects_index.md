@@ -2,6 +2,7 @@
 layout: default
 title: Projekte
 category: home
+description: "Kurzbeschreibung der Kurzbeschreibung"
 ---
 
 <header>

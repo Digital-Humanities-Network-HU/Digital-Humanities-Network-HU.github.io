@@ -2,6 +2,7 @@
 layout: default
 title: Ressourcen
 category: home
+description: "Kurzbeschreibung der Kurzbeschreibung"
 ---
 
 <header>

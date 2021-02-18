@@ -2,6 +2,7 @@
 layout: default
 title: Kooperationen
 category: home
+description: "Kurzbeschreibung der Kurzbeschreibung"
 ---
 
 <header>
